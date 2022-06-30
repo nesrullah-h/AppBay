@@ -1,0 +1,27 @@
+footer{
+    background-color: green;
+    padding-top: 50px;
+    .footer-title{
+        
+        p{
+            text-align: center;
+        }
+        
+    }
+    .footer-icons{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        .sosial{
+            width: 60px;
+            height: 60px;
+            background-color: gray;
+            border-radius: 50%;
+            i{
+                font-size: 20px;
+                padding:20px;
+                color: white; 
+            }
+        }
+    }
+}
